@@ -28,8 +28,7 @@ You can also test these routes in thunder client:
 
 - /signup
 - /signin
-- /users
-- /secret
+- /reservations
 
 ## Documentation
 
