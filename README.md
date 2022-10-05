@@ -21,20 +21,19 @@ Be sure to install all dependencies. You can publish through heroku.
 
 ## Testing
 
-Write a complete set of tests for all functional units and modules
-Your tests must be running green on Github Actions
+You can run [npm test] in the terminal for the these tests:
+Testing users model
+    ✓ User can have the role of admin, having the access to all CRUD
+Testing reservations model
+    ✓ User can create a reservation
 
 You can also test these routes in thunder client:
 
 - /signup
 - /signin
-- /reservations
+- /api/v2/reservations
 
 ## Documentation
 
-Compose a UML or Process/Data Flow Diagram for every application
 UML Reference
 ![Lab08](./images/Lab08-UML.png)
-
-This should be the first thing you do when beginning work on a lab assignment.
-Draw the process/data flow of your application and map it to the code you will need to write or evaluate/fix.
