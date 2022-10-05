@@ -22,16 +22,18 @@ Be sure to install all dependencies. You can publish through heroku.
 ## Testing
 
 You can run [npm test] in the terminal for the these tests:
+
 Testing users model
-    ✓ User can have the role of admin, having the access to all CRUD
+✓ User can have the role of admin, having the access to all CRUD
+
 Testing reservations model
-    ✓ User can create a reservation
+✓ User can create a reservation
 
 You can also test these routes in thunder client:
 
 - /signup
 - /signin
-- /api/v2/reservations
+- /api/v2/reservations(once user has signed up or in)
 
 ## Documentation
 
